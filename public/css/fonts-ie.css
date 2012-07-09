@@ -1,0 +1,5 @@
+[root@websrv styles]# cat fonts-ie.css
+@font-face {
+  font-family: 'Raleway';
+  src: url('css/fonts/b.eot');
+}

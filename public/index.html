@@ -1,0 +1,154 @@
+<!-- Hey!, it seems like you're interested in my code! Maybe we have similarities - Ping me, and let's get to know each other! :) -->
+
+<!-- FYI: IE Should work, but if there are problems try viewing my website from -webkit- (Chrome or Safari), Opera, or Firefox! :) Recycled code credit to: JQuery, Brian Cherne for hoverIntent() Javascript, Shay Howe from Groupon on CSS/HTML tutorial, natbat for snowflake/snowdrift, FontSquirrel fontKit for Cross-Browser Fix. -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Daniel C. Liem's Personal Website</title>
+
+		<!-- GOOGLE FONTS -->
+		<link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+		<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="css/fonts-ie.css" charset="utf-8" />
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+		<link href="css/main.css" rel="stylesheet">
+		<link href="css/socialmedia.css" rel="stylesheet">
+		<link href="css/snowflake.css" rel="stylesheet">
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/hoverIntent.js"></script>
+
+		<!-- Google Analytics Code -->
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-19221474-9']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	</head>
+	<body>
+		<!-- This is my first attempt in creating my own website from scratch, so please be lenient with the semantics of my code! :) -->
+
+		<noscript>
+			<a href="mainnojs.html" class="error">Can't see content on this page?</br>Make sure your Javascript is enabled,</br>or if you're using IE try using Chome,</br> Firefox, Safari or Opera, or simply</br>CLICK ME!</a>
+		</noscript>
+
+		<div id="main" hidden=true>
+			<a href="http://www.flickr.com/photos/danielcliem/6567172997/in/set-72157628034850470" target="_blank">
+			<img id="profile" src="img/profile.png" alt="" width="220" height="273"/></a>
+
+			<h2>Hi, I'm Daniel Liem, and I love Pictures, Design, Boba and Clean Code.</h2>
+			
+			<ul class="menu" id="black">
+				<li value="1" class="bullet activateTale"><a>My Tale</a></li>
+				<li value="2" class="bullet"><a href="https://github.com/danielcliem">Git Profile</a></li>
+				<li value="3" class="bullet activateSnow"><a>Still Bored?</a></li>
+				<li value="4" class="bullet"><a href="mailto:daniel@danielcliem.com?subject=Hi%20Daniel!&body=I%20want%20to%20get%20to%20know%20you!%20=]" title="daniel@danielcliem.com">Contact Me!</a></li>
+			</ul>
+
+			<div class="menu" id="red">
+				<a id="1" class="activateTale">My Tale</a>
+				<a id="2" href="https://github.com/danielcliem">Git Profile</a>
+				<a id="3" class="activateSnow">Still Bored?</a>
+				<a id="4" href="mailto:daniel@danielcliem.com?subject=Hi%20Daniel!&body=I%20want%20to%20get%20to%20know%20you!%20=]" title="daniel@danielcliem.com">Contact Me!</a>
+			</div>
+
+			<span class="label red">Coming Soon: 3D</span>
+		</div>
+
+		<div class="activateTale" id="scrollup" hidden=true></div>
+		<div id="myTale" hidden=true>
+			<h1>I Build Stuff.</h1>
+			<p>
+				In high school, I loved Java & C++; in college, I learned HTML/CSS & C. During my internship at Groupon, my life changed. I decided to build this website from scratch, and that's when I fell in love with Javascript. I'm all about UI/UX, Front-End, Imagination & Creativity. Sublime, Growl, iTerm, Alfred, and Sizeup are my Mac's best friends. Coding, Designing (and sleep deprivation) isn't just a hobby - it's my <u>life</u>.
+				</br></br>
+				I'm also a photographer, traveler, tweeter, and social media addict. My passion in violin, guitar, & piano runs deep (please teach me how to sing). I could easily beat you in a Boba drinking contest - don't even challenge me to Dimsum. Recently became a glorious fan of V-necks, Crocs, and the NBA. I'm from the suburb of So Cal, LA (Arcadia). My heart lies in social life - friends are what keeps me motivated. My Life Goal?: to simply have a happy family.
+				</br></br>
+				I live, love, laugh - I don't believe in pessimism. I've struggled, lost, fallen - but I <strong>always</strong> get right back up. My school career has brought me life-long friendships and the challenges I've faced have only made me better, stronger, and who I am today. Life's a rollar coaster, and I'm forever in debt to those who've contributed to changing my life.
+				</br></br>
+				I'm Daniel Liem, Stanford '15, and I'm ready to hack on the world. If you would like to see my resume or simply talk, contact me or continue to peruse my website!
+			</p>
+		</div>
+
+		<div class="activateSecret" id="scrollup2" hidden=true></div>
+		<div id="secretButton" hidden=true>
+			<h2>Congratulations, you found the Secret Button!...</h2>
+			<img src="img/secretbutton.jpg" id="secretPicture" width="540" height="380"/>
+		</div>
+
+		<div id="socialMediaBox" hidden=true>
+			<div class="socialfade1" hidden=true>
+				<a href="http://www.facebook.com/danielcliem" class="social" target="_blank" id="facebook">Facebook</a>
+			</div>
+			<div class="socialfade1" hidden=true>
+				<a href="http://www.flickr.com/photos/danielcliem" class="social" target="_blank" id="flickr">Flickr</a>
+			</div>
+			<div class="socialfade1" hidden=true>
+				<a href="http://www.quora.com/Daniel-C-Liem" class="social" target="_blank" id="quora">Quora</a>
+			</div>
+			<div class="socialfade1" hidden=true>
+				<a href="http://www.github.com/danielcliem" class="social" target="_blank" id="github">Github</a>
+			</div>
+			<div class="socialfade1" hidden=true>
+				<a href="http://stanford.edu/" class="social" target="_blank" id="stanford">STANFORD</a>
+			</div>
+			<div class="socialfade2" hidden=true>
+				<a href="http://www.twitter.com/danielcliem" class="social" target="_blank" id="twitter">Twitter</a>
+			</div>
+			<div class="socialfade2" hidden=true>
+				<a href="http://www.youtube.com/user/danielcliem5" class="social" target="_blank" id="youtube">Youtube</a>
+			</div>
+			<div class="socialfade2" hidden=true>
+				<a href="http://www.pinterest.com/danielcliem" class="social" target="_blank" id="pinterest">Pinterest</a>
+			</div>
+			<div class="socialfade2" hidden=true>
+				<a href="http://www.vimeo.com/danielcliem" class="social" target="_blank" id="vimeo">Vimeo</a>
+			</div>
+			<div class="socialfade3" hidden=true>
+				<a href="http://www.linkedin.com/in/danielcliem" class="social" target="_blank" id="linkedin">Linkedin</a>
+			</div>
+			<div class="socialfade3" hidden=true>
+				<a href="https://plus.google.com/113062261832922949449/posts" class="social" target="_blank" id="google">Google+</a>
+			</div>
+			<div class="socialfade3" hidden=true>
+				<a href="http://www.danielcliem.tumblr.com" class="social" target="_blank" id="tumblr">Tumblr</a>
+			</div>
+			<div class="socialfade3" hidden=true>
+				<a href="https://foursquare.com/elieminatorr" class="social" target="_blank" id="foursquare">Foursquare</a>
+			</div>
+			<div class="socialfade3" hidden=true>
+				<a href="http://bit.ly/danielcliem-instagram" class="social" target="_blank" id="instagram">Instagram</a>
+			</div>
+			<div class="socialfade3" hidden=true>
+				<a href="http://ahs.ausd.net/" class="social" target="_blank" id="arcadiahighschool">Arcadia High School</a>
+			</div>
+			<div class="socialfade3" hidden=true>
+				<a href="http://www.scouting.org/" class="social" target="_blank" id="boyscouts">Boy Scouts</a>
+			</div>
+			<div class="socialfade3" hidden=true>
+				<a href="http://www.arcadiaphysics.com/" class="social" target="_blank" id="physicsteam">Physics Team</a>
+			</div>
+
+			<div class="socialfade3 activateSecret" hidden=true>
+				<a class="social" target="_blank" id="secretbutton">secretbutton</a>
+			</div>
+		</div>
+
+		<div id="snowdrift"></div>
+
+		<script type="text/javascript" src="js/mainjavascript.js"></script>
+		<script type="text/javascript" src="js/easingplugin.js"></script>
+		<script type="text/javascript" src="js/snowflake.js"></script>
+	</body>
+</html>

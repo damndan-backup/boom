@@ -1,0 +1,9 @@
+[root@websrv styles]# cat fonts.css
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: url('css/fonts/d.ttf') format('truetype'),
+       url('css/fonts/c.woff') format('woff');
+       url('css/fonts/a.svg') format('svg');
+}
