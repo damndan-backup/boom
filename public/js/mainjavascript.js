@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 	$("#black").fadeIn(1000);
-	$("#main").slideDown(2000);
+	$("#main").fadeIn(2000);
 	$("#socialMediaBox").delay(200).fadeIn(2000);
 
 	$(".socialfade1").delay(1000).fadeIn(1000);

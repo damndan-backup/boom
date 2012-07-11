@@ -170,8 +170,8 @@ body {
 
 /* Coming Attraction Button */
 
-.label {
-    font-size:9.75px;
+.button3d {
+    font-size:12px;
     font-weight:700;
     color:#FFF;
     text-transform:uppercase;
@@ -182,7 +182,7 @@ body {
     font-family:Tahoma, sans-serif;
     position:absolute;
     top:555px;
-    left:250px;
+    left:230px;
     padding:1px 3px 2px;
 }
 
