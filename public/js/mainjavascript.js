@@ -52,11 +52,3 @@ $(".activateSecret").click(function () {
 		"opacity": "toggle"
 	}, 1000);
 });
-
-
-
-
-
-
-
-

@@ -8,6 +8,15 @@
 .social {
     position:relative;
     text-decoration:none;
+    opacity: 0.6;
+
+    /* 
+    text-transform:opacity;
+    -moz-text-transform:opacity;
+    -webkit-text-transform:opacity;
+    -o-text-transform:opacity;
+    */
+
     transition:text-shadow 1s, transform 2s;
     -moz-transition:text-shadow 1s, -moz-transform 2s;
     -webkit-transition:text-shadow 1s, -webkit-transform 2s;
@@ -17,6 +26,7 @@
 
 .social:hover {
     text-shadow:#6374AB 20px 20px 10px;
+    opacity: 1;
 }
 
 
@@ -97,7 +107,7 @@
 #google {
     font-family:Raleway,  Helvetica,  sans-serif;
     font-size:25px;
-    color:#CC3;
+    color:#CC9933;
     top:-70px;
     left:640px;
 }
