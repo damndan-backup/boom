@@ -44,8 +44,14 @@
 
 		<!-- Accommodation for disabled JS browsers -->
 		<noscript>
-			<a href="nojs/mainnojs.html" class="error">Can't see content on this page?</br>Make sure your Javascript is enabled,</br>or if you're using IE try using Chome,</br> Firefox, Safari or Opera, or simply</br>CLICK ME!</a>
+			<a href="nojs/mainnojs.html" class="error">Can't see content on this page?</br>Then your Javascript is enabled... </br>turn it on! But if you're too lazy, then</br></br>CLICK ME!</a>
 		</noscript>
+
+		<!--[if IE ]>
+			<a href="nojs/mainnojs.html" class="error">Can't see content on this page?</br> Then you're using darn old</br>IE (Internet Explorer) :( Try using</br>Chome, Firefox, Safari or Opera,</br>or if you're too lazy, simply...</br></br>CLICK ME!</a>
+		<![endif]-->
+
+		<![if !IE]>
 
 		<div id="main" hidden=true>
 			<a href="http://www.flickr.com/photos/danielcliem/6566907529/in/set-72157628034850470/" target="_blank">
@@ -155,5 +161,9 @@
 		<script type="text/javascript" src="js/mainjavascript.js"></script>
 		<script type="text/javascript" src="js/easingplugin.js"></script>
 		<script type="text/javascript" src="js/snowflake.js"></script>
+
+		<![endif]>
+
+		<!-- Hey!, it seems like you're interested in my code! Maybe we have similarities - Ping me, and let's get to know each other! :) -->
 	</body>
 </html>
